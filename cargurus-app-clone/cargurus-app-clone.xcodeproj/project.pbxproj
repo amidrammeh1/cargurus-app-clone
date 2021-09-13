@@ -15,6 +15,7 @@
 		564525F626EED52F00A04A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564525F426EED52F00A04A21 /* LaunchScreen.storyboard */; };
 		5645260126EED53000A04A21 /* cargurus_app_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645260026EED53000A04A21 /* cargurus_app_cloneTests.swift */; };
 		5645260C26EED53000A04A21 /* cargurus_app_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645260B26EED53000A04A21 /* cargurus_app_cloneUITests.swift */; };
+		5645261C26EED98F00A04A21 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645261B26EED98F00A04A21 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5645260726EED53000A04A21 /* cargurus-app-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cargurus-app-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5645260B26EED53000A04A21 /* cargurus_app_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cargurus_app_cloneUITests.swift; sourceTree = "<group>"; };
 		5645260D26EED53000A04A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5645261B26EED98F00A04A21 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		564525E826EED52E00A04A21 /* cargurus-app-clone */ = {
 			isa = PBXGroup;
 			children = (
+				5645261A26EED95700A04A21 /* Utilities */,
+				5645261926EED89500A04A21 /* Home */,
 				564525E926EED52E00A04A21 /* AppDelegate.swift */,
 				564525EB26EED52E00A04A21 /* SceneDelegate.swift */,
 				564525ED26EED52E00A04A21 /* ViewController.swift */,
@@ -126,6 +130,21 @@
 				5645260D26EED53000A04A21 /* Info.plist */,
 			);
 			path = "cargurus-app-cloneUITests";
+			sourceTree = "<group>";
+		};
+		5645261926EED89500A04A21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5645261A26EED95700A04A21 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5645261B26EED98F00A04A21 /* LoadingView.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				564525EE26EED52E00A04A21 /* ViewController.swift in Sources */,
+				5645261C26EED98F00A04A21 /* LoadingView.swift in Sources */,
 				564525EA26EED52E00A04A21 /* AppDelegate.swift in Sources */,
 				564525EC26EED52E00A04A21 /* SceneDelegate.swift in Sources */,
 			);

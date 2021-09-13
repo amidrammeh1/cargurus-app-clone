@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7E2A8038-4684-4FD9-B8BA-59075709C157"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F767D942-5F4C-495A-BD3A-2F629DF6FAAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cargurus-app-clone/Utilities/LoadingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "displayLoading()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F767D942-5F4C-495A-BD3A-2F629DF6FAAA - 848fc0889b82a67f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cargurus_app_clone.LoadingView.displayLoading() -&gt; ()"
+                  moduleName = "cargurus-app-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukedreyer/Desktop/tutoring/cargurus-app-clone/cargurus-app-clone/cargurus-app-clone/Utilities/LoadingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F767D942-5F4C-495A-BD3A-2F629DF6FAAA - 636260c2fa587a0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in cargurus_app_clone.LoadingView.displayLoading() -&gt; ()"
+                  moduleName = "cargurus-app-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukedreyer/Desktop/tutoring/cargurus-app-clone/cargurus-app-clone/cargurus-app-clone/Utilities/LoadingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
